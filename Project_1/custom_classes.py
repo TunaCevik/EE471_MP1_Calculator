@@ -12,3 +12,5 @@ class Calculator:
             self._current_val /= num
         else:
             print("Cannot divide by zero!")
+    def mul(self, x):
+        self._current_val *= x
