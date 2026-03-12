@@ -7,3 +7,8 @@ class Calculator:
     def add(self, value):
         self._current_val += value
 
+    def div(self, num):
+        if num != 0:
+            self._current_val /= num
+        else:
+            print("Cannot divide by zero!")
